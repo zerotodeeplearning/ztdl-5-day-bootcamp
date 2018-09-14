@@ -1,8 +1,5 @@
 from matplotlib.pyplot import rcParams
 from IPython.display import set_matplotlib_formats
-import matplotlib
-
-matplotlib.use('Agg')
 
 rcParams['font.size'] = 14
 rcParams['lines.linewidth'] = 2
