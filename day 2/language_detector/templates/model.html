@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <div class="content">
+        <h1>
+            {% if prediction %}
+            The language of the sentence is: <br> <br>
+            {{ prediction }}
+            {% else %}
+                Please fill out the form below!
+            {% endif %}
+        </h1>
+    </div>
+
+    <div class="content">
+        <form method="POST">
+            {{ predict_form.sentence.label }} {{ predict_form.sentence(size=80, maxlength=200) }} <br>
+            {{ predict_form.submit() }}
+        </form>
+    </div>
+
+{% endblock %}

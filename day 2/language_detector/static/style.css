@@ -1,0 +1,33 @@
+/*CSS for Andrew's Wedding.  Sarah can come too.*/
+a {color:inherit;  text-decoration: none;}
+* {margin: 0px; padding: 0px;}
+body {padding-bottom: 100px;}
+
+/*header*/
+.outerContainer {
+    display: table;
+    width: 100%; /* width of parent */
+    height: 125px; /* height of parent */
+    overflow: hidden;
+}
+
+.outerContainer .header-div {
+	font-family: "Helvetica";
+	font-size: 24px;
+	background-color: black;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*content*/
+.content {
+	font-family: "Helvetica";
+	font-size: 18px;
+	padding: 25px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
