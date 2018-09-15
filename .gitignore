@@ -1,6 +1,7 @@
 .DS_Store
 *ipynb_checkpoints
 .pytest_cache
+*/wandb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
