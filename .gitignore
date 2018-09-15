@@ -2,6 +2,9 @@
 *ipynb_checkpoints
 .pytest_cache
 */wandb
+data/sports/train/
+data/sports/test/
+solutions_do_not_open/models/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
