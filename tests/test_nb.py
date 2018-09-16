@@ -8,7 +8,7 @@ def _exec_notebook(path):
                 "--output", fout.name, path]
         subprocess.check_call(args)
 
-sol = "solutions_do_not_open"
+sol = "solutions_do_not_open/"
 
 def test_0():
     _exec_notebook(sol+"Lab_01_DA Jupyter_solution.ipynb")
