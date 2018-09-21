@@ -27,14 +27,15 @@ hp_set = parser.parse_args()
 #############
 # Load Data #
 #############
-(X_train, y_train), (X_test, y_test) = cifar10.load_data()
-X_train = X_train.astype('float32') / 255.
+(X_train_valid, y_train_valid), (X_test, y_test) = cifar10.load_data()
+X_train = X_train_valid.astype('float32') / 255.
 X_test = X_test.astype('float32') / 255.
 
-y_train = to_categorical(y_train)
+y_train_valid = to_categorical(y_train_valid)
 y_test = to_categorical(y_test)
 
-X_train, X_valid, y_train, y_valid = train_test_split(X_train, y_train, test_size=0.10)
+X_train, X_valid, y_train, y_valid = \
+    train_test_split(X_train_valid, y_train_valid, test_size=0.10)
 
 
 ########################
