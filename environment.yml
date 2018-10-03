@@ -1,4 +1,4 @@
-name: ztdlbook
+name: ztdlbootcamp
 channels:
 - defaults
 dependencies:
@@ -9,20 +9,21 @@ dependencies:
 - gensim==3.4.*
 - h5py==2.8.*
 - jupyter==1.0.*
-- matplotlib==2.2.*
-- numpy==1.14.*
+- matplotlib==3.0.*
+- numpy==1.14.5
 - pandas==0.23.*
-- pillow==5.2.*
+- pillow==5.3.*
 - pip==10.0.*
-- pytest==3.7.*
-- scikit-learn==0.19.*
+- pytest==3.8.*
+- setuptools==39.1.0
+- scikit-learn==0.20.*
 - scipy==1.1.*
 - seaborn==0.9.*
-- twisted==18.7.*
+- twisted==17.5.*
+- tensorflow==1.10.*
 - pip:
-  - PyHamcrest==1.9.0
-  - tensorflow==1.10.1
-  - keras==2.2.2
-  - jupyter_contrib_nbextensions==0.5.0
-  - tensorflow-serving-api==1.10.1
+  - PyHamcrest==1.9.*
+  - keras==2.2.*
+  - jupyter_contrib_nbextensions==0.5.*
+  - tensorflow-serving-api==1.10.*
   - wandb==0.6.*
