@@ -3,7 +3,7 @@ This repo is a large sample of the coursework in the Zero to Deep Learning Bootc
 
 Participants come to accelerate and consolidate their ML and DL practical skills, as online/remote courses can only take practical skills so far. The Bootcamp provides dedicated time to learn with a teacher to achieve the next level of proficiency. This repo will help you with self-directed learning and show you what we cover in the Bootcamp, with the value of the Bootcamp coming from actually doing the labs in a supported environment.
 
-# Next Bootcamp: 19-23 November, London. [Register here](https://bootcamp.zerotodeeplearning.com). 15% discount with code GITHUB ends November 1
+# Next Bootcamp: 19-23 November, London. [Register here](https://bootcamp.zerotodeeplearning.com). 10% discount with code GITHUB ends November 5
 
 ## Quick start guide
 
