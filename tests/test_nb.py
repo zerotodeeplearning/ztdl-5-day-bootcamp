@@ -97,5 +97,5 @@ def test_28():
 def test_29():
     _exec_notebook(sol+"Lab_29_DL Model Serving_solution.ipynb")
 
-def test_29():
+def test_30():
     _exec_notebook(sol+"Lab_30_Hyperparameter_Optimization.ipynb")
