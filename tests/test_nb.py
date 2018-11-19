@@ -74,7 +74,7 @@ def test_21():
     _exec_notebook(sol+"Lab_21_DL Time Series Forecasting Short_solution.ipynb")
 
 def test_22():
-    _exec_notebook(sol+"Lab_22_DL Sequence classification_solution.ipynb")
+    _exec_notebook(sol+"Lab_22_DL Sentiment classification_solution.ipynb")
 
 def test_23():
     _exec_notebook(sol+"Lab_23_DL Sequence Generation_solution.ipynb")
