@@ -5,6 +5,7 @@
 data/sports/train/
 data/sports/test/
 data/embeddings/glove.6B.50d.txt.vec
+solutions_do_not_open/models/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
