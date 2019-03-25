@@ -1,12 +1,12 @@
 import argparse
 from sklearn.model_selection import train_test_split
 
-from keras.datasets import cifar10
-from keras.models import Sequential
-from keras.layers.core import Dense, Activation, Dropout, Flatten
-from keras.layers import Conv2D, MaxPooling2D
-from keras.optimizers import Adam
-from keras.utils import to_categorical
+from tensorflow.keras.datasets import cifar10
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers.core import Dense, Activation, Dropout, Flatten
+from tensorflow.keras.layers import Conv2D, MaxPooling2D
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.utils import to_categorical
 
 import wandb
 from wandb.keras import WandbCallback
