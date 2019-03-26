@@ -21,7 +21,7 @@ try:
     dataset = load_files('./wikidata/short_paragraphs')
 except OSError as ex:
     print(ex)
-    print("Couldn't import the data, try running `python fetch_data.py` first ")
+    print("Couldn't import the data, did you unzip the wikidata.zip folder?")
     exit(-1)
 
 
@@ -48,7 +48,7 @@ from sklearn.linear_model import LogisticRegression, Perceptron, SGDClassifier
 from sklearn.pipeline import make_pipeline
 
 model = make_pipeline(vectorizer,
-                      LogisticRegression(C=10))
+                      LogisticRegression(solver='liblinear', C=10))
 
 
 # TASK: Fit the pipeline on the training set
