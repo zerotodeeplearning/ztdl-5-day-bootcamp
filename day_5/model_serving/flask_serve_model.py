@@ -8,7 +8,6 @@ from flask import request, jsonify
 import tensorflow as tf
 
 loaded_model = None
-graph = None
 
 app = Flask(__name__)
 
@@ -19,9 +18,8 @@ def load_model(export_path):
     into global variables.
     """
 
-    # global variables
+    # global variable
     global loaded_model
-    global graph
 
     # load model architecture from json
     with open(os.path.join(export_path, 'model.json')) as fin:
@@ -30,8 +28,6 @@ def load_model(export_path):
     # load weights
     loaded_model.load_weights(os.path.join(export_path, 'weights.h5'))
 
-    # get the tensorflow graph
-    graph = tf.get_default_graph()
     print("Model loaded.")
 
 
@@ -58,9 +54,8 @@ def predict():
         # preprocess the data
         processed = preprocess(data)
 
-        # run predictions using the global tf graph
-        with graph.as_default():
-            probas = loaded_model.predict(processed)
+        # run predictions
+        probas = loaded_model.predict(processed)
 
         # obtain predicted classes from predicted probabilities
         preds = np.argmax(probas, axis=1)
