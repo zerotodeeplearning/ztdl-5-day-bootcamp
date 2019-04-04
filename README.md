@@ -9,7 +9,7 @@ Participants come to accelerate and consolidate their ML and DL practical skills
 
 #### Download and install Anaconda or Miniconda Python 3
 
-Download Anaconda here: https://www.anaconda.com/download or download Miniconda here: https://docs.conda.io/en/latest/miniconda.html and then install it on your system.
+Download [Anaconda](https://www.anaconda.com/download) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and then install it on your system.
 
 #### Open a terminal
 
