@@ -6,7 +6,7 @@ Flask-Bootstrap
 Flask-WTF
 gunicorn
 itsdangerous
-Jinja2
+Jinja2>=2.10.1
 MarkupSafe
 numpy
 pandas
