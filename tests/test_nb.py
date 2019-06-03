@@ -55,8 +55,8 @@ def test_14():
 def test_15():
     _exec_notebook(sol+"Lab_15_DL Keras Callbacks and Functional API_solution.ipynb")
 
-def test_16():
-    _exec_notebook(sol+"Lab_16_DL Keras Wandb_solution.ipynb")
+# def test_16():
+#     _exec_notebook(sol+"Lab_16_DL Keras Wandb_solution.ipynb")
 
 def test_17():
     _exec_notebook(sol+"Lab_17_DL Pretrained models_solution.ipynb")
@@ -85,17 +85,11 @@ def test_24():
 def test_25():
     _exec_notebook(sol+"Lab_25_DL Pretrained Embeddings for text_solution.ipynb")
 
-def test_26():
-    _exec_notebook(sol+"Lab_26_TF Eager Execution_solution.ipynb")
-
-def test_27():
-    _exec_notebook(sol+"Lab_27_TF Estimators_solution.ipynb")
-
-def test_28():
-    _exec_notebook(sol+"Lab_28_TF Dataset API_solution.ipynb")
-
 def test_29():
-    _exec_notebook(sol+"Lab_29_DL Model Serving_solution.ipynb")
+    _exec_notebook(sol+"Lab_29_TF2_Data_solution.ipynb")
 
 def test_30():
-    _exec_notebook(sol+"Lab_30_Hyperparameter_Optimization.ipynb")
+    _exec_notebook(sol+"Lab_30_Hyperparameter_tuning_solution.ipynb")
+
+def test_31():
+    _exec_notebook(sol+"Lab_31_DL Model Serving_solution.ipynb")
