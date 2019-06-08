@@ -5,24 +5,25 @@ dependencies:
 - python=3.7.*
 - bz2file==0.98
 - cython==0.29.*
+- dill==0.2.*
 - numpy==1.16.*
 - flask==1.0.*
 - gensim==3.4.*
 - h5py==2.9.*
 - jupyter==1.0.*
-- matplotlib==3.0.*
+- matplotlib==3.1.*
 - pandas==0.24.*
-- pillow==5.4.*
-- pip==19.0.*
-- pytest==4.1.*
+- pillow==6.0.*
+- pip==19.1.*
+- pytest==4.6.*
 - pyhamcrest==1.9.*
-- scikit-learn==0.20.*
+- scikit-learn==0.21.*
 - scipy==1.2.*
 - seaborn==0.9.*
-- setuptools==40.8.*
-- twisted==18.9.*
+- setuptools==41.0.*
+- twisted==19.2.*
 - cudatoolkit=10.0.*
 - cudnn==7.3.*
 - pip:
-  - tensorflow-gpu==2.0.0-alpha0
-  - wandb
+  - tensorflow==2.0.0-beta0
+  - wandb==0.8.1
