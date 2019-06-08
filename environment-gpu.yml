@@ -22,8 +22,8 @@ dependencies:
 - seaborn==0.9.*
 - setuptools==41.0.*
 - twisted==19.2.*
-- cudatoolkit=10.0.*
-- cudnn==7.3.*
+- cudatoolkit=10.1.*
+- cudnn==7.6.*
 - pip:
   - tensorflow-gpu==2.0.0-beta0
   - wandb==0.8.1
