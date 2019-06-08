@@ -25,5 +25,5 @@ dependencies:
 # - cudatoolkit=10.1.*
 # - cudnn==7.6.*
 - pip:
-  - tensorflow-gpu==2.0.0-beta0
+  - tensorflow-gpu==2.0.0-alpha0
   - wandb==0.8.1
