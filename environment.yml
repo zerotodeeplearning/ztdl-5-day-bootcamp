@@ -23,6 +23,6 @@ dependencies:
 - setuptools==41.0.*
 - twisted==19.2.*
 - pip:
-  - tensorflow==2.0.0-beta0
+  - tensorflow==2.0.0-alpha0
   - tensorflow-serving-api==1.13.*
   - wandb==0.8.1
