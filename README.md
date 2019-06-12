@@ -1,9 +1,11 @@
-# [Zero To Deep Learning 5 day bootcamp](https://bootcamp.zerotodeeplearning.com)
+## [Check our Zero To Deep Learning 5 day bootcamp. New dates are out!](https://bootcamp.zerotodeeplearning.com)
+
+--
+
 This repo is a large sample of the coursework in the Zero to Deep Learning Bootcamp. The Bootcamp is a hands-on and immersive course to learn Machine Learning & Deep Learning fast with Python, Pandas, Matplotlib, Scikit-Learn, Keras and Tensorflow.
 
 Participants come to accelerate and consolidate their ML and DL practical skills, as online/remote courses can only take practical skills so far. The Bootcamp provides dedicated time to learn with a teacher to achieve the next level of proficiency. This repo will help you with self-directed learning and show you what we cover in the Bootcamp, with the value of the Bootcamp coming from actually doing the labs in a supported environment.
 
-## Next Bootcamps: 3-7 June, San Francisco. [Register here](https://bootcamp.zerotodeeplearning.com)
 
 ## Quick start guide
 
