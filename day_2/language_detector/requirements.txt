@@ -1,7 +1,7 @@
 click
 dill
 dominate
-Flask
+Flask>=1.0.0
 Flask-Bootstrap
 Flask-WTF
 gunicorn
