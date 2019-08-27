@@ -16,5 +16,5 @@ scikit-learn
 scipy
 six
 visitor
-Werkzeug
+Werkzeug>=0.15.3
 WTForms
